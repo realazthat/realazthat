@@ -34,7 +34,7 @@ bash scripts/format.sh
 # bash scripts/generate-animation.sh
 bash scripts/generate-readme.sh
 if [[ -z "${GITHUB_ACTIONS:-}" ]]; then
-  bash scripts/act.sh
+  bash scripts/utilities/act.sh
   bash scripts/precommit.sh
 fi
 

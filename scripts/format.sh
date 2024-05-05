@@ -19,4 +19,3 @@ if toml-sort "${PROJ_PATH}/pyproject.toml" --check; then
 else
   toml-sort --in-place "${PROJ_PATH}/pyproject.toml"
 fi
-
