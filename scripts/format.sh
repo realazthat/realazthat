@@ -12,6 +12,8 @@ TOML=${PROJ_PATH}/pyproject.toml EXTRA=dev \
   bash "${PROJ_PATH}/scripts/utilities/ensure-reqs.sh"
 
 
+python -m mdreftidy.cli "${PWD}/README.md.jinja2" \
+  --renumber --remove-unused --move-to-bottom --sort-ref-blocks --inplace
 bash scripts/utilities/prettier.sh --parser markdown "${PWD}/README.md.jinja2" --write
 
 if toml-sort "${PROJ_PATH}/pyproject.toml" --check; then

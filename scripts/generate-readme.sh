@@ -22,3 +22,10 @@ python -m snipinator.cli \
   --create \
   -o "${PROJ_PATH}/README.md" \
   --chmod-ro
+
+LAST_VERSION=$(tomlq -r -e '.["project"]["version"]' pyproject.toml)
+python -m mdremotifier.cli \
+  -i "${PROJ_PATH}/README.md" \
+  --url-prefix "https://github.com/realazthat/rsynccheck/blob/v${LAST_VERSION}/" \
+  --img-url-prefix "https://raw.githubusercontent.com/realazthat/rsynccheck/v${LAST_VERSION}/" \
+  -o "${PROJ_PATH}/.github/README.remotified.md"
