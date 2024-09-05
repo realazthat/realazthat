@@ -8,19 +8,19 @@ SOURCE: `README.md.jinja2`.
 
 ---
 
-|                                     |                                                                                                                                          |     |
-| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --- |
-| 🖇️ [chatgpt2graph][1] ([site][2])   | Graph ChatGPT usage over time.                                                                                                           |     |
-| 🖇️ [comfy-catapult][3]              | Programmatically schedule ComfyUI workflows via the ComfyUI API.                                                                         |     |
-| 🖇️ [excalidraw-brute-export-cli][4] | 💪🔨🎭 CLI to export Excalidraw diagrams to svg/png files, using playwright+firefox.                                                     |     |
-| 🖇️ [rsynccheck][5]                  | Check the completeness of an rsync operation.                                                                                            |     |
-| 🖇️ [snipinator][6]                  | 🤖💻🔧✂️📝📃 Embed code snippets in your README, from actual (testable) code. Keep your README up-to-date with the actual code, via CLI. |     |
-| 🖇️ [mdremotifier][7]                | Make markdown READMEs self contained for publication to sites other than GH.                                                             |     |
-| 🖇️ [mdreftidy][8]                   | CLI to tidy ({renumber,move-to-bottom,sort,clean}) up {image,link} references for markdown.                                              |     |
-| 🖇️ [changeguard][9]                 | CLI to check if your repository/directory files have changed over the span of a script.                                                  |     |
-| 🖇️ [badger-badger][10]              | Add a badge to a discord {user,server} profile picture.                                                                                  |     |
-| 🖇️ [coverator][11]                  | Cover Template Generator for Barnes and Noble Press.                                                                                     |     |
-| 🖇️ [corner-cases][12]               | A library for reasoning about a cube, the faces, corners, and edges of a cube.                                                           |     |
+|                                     |                                                                                                                                          |     |     |     |
+| ----------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------- | --- | --- | --- |
+| 🖇️ [chatgpt2graph][1] ([site][2])   | Graph ChatGPT usage over time.                                                                                                           |     |     |     |
+| 🖇️ [comfy-catapult][3]              | Programmatically schedule ComfyUI workflows via the ComfyUI API.                                                                         |     |     |     |
+| 🖇️ [excalidraw-brute-export-cli][4] | 💪🔨🎭 CLI to export Excalidraw diagrams to svg/png files, using playwright+firefox.                                                     |     |     |     |
+| 🖇️ [rsynccheck][5]                  | Check the completeness of an rsync operation.                                                                                            |     |     |     |
+| 🖇️ [snipinator][6]                  | 🤖💻🔧✂️📝📃 Embed code snippets in your README, from actual (testable) code. Keep your README up-to-date with the actual code, via CLI. |     |     |     |
+| 🖇️ [mdremotifier][7]                | Make READMEs self contained for publication to sites other than GH, such as npm, pypi, by turning relative images into absolute ones.    |     |     |     |
+| 🖇️ [mdreftidy][8]                   | CLI to tidy ({renumber,move-to-bottom,sort,clean}) up {image,link} references for markdown.                                              |     |     |     |
+| 🖇️ [changeguard][9]                 | CLI to check if your repository/directory files have changed over the span of a script.                                                  |     |     |     |
+| 🖇️ [badger-badger][10]              | Add a badge to a discord {user,server} profile picture.                                                                                  |     |     |     |
+| 🖇️ [coverator][11]                  | Cover Template Generator for Barnes and Noble Press.                                                                                     |     |     |     |
+| 🖇️ [corner-cases][12]               | A library for reasoning about a cube, the faces, corners, and edges of a cube.                                                           |     |     |     |
 
 [1]: https://github.com/realazthat/chatgpt2graph
 [2]: https://realazthat.github.io/chatgpt2graph/
